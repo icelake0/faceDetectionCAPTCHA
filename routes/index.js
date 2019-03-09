@@ -75,7 +75,7 @@ router.post('/test',(req,res)=>{
   }).then(function (response) {
       res.redirect(`http://localhost:7777/captureImage/${response.data.init}`);
   }).catch(function (error) {
-      console.log('..................',error);
+      console.log('..................',error);//
   });
 })
 router.post('/evaluate',(req,res)=>{
