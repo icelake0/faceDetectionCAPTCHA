@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .inner
+    h2 Edit Your Account
+    form(action="/account" method="POST")
+      label(for="org_name") Organisation Name
+      input(type="text" name="org_name" value=user.org_name)
+      label(for="domain_url") Domain URL
+      input(type="text" name="domain_url" value=user.domain_url)
+      label(for="email") Email Address
+      input(type="email" name="email" value=user.email)
+      label(for="tel") tel
+      input(type="number" name="tel" value=user.tel)
+
+
+      input.button(type="submit" value="Update My Account")

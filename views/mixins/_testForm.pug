@@ -1,0 +1,20 @@
+mixin loginForm()
+  br
+  form.form(action="/test" method="POST")
+    h2 Provide Your Information below to help test this App
+    label(for="matric_number") Matric Number
+    input(type="text" name="matric_number" required=true)
+    label(for="gender") Gender
+    select(name="gender" required=true)
+     option(value="male") Male
+     option(value="female") Female
+    label(for="departmant") Department
+    input(type="text" name="department" required=true)
+    label(for="level") Level
+    select(name="level" required=true)
+     option(value="100") Part 1
+     option(value="200") Part 2
+     option(value="300") Part 3
+     option(value="400") Part 4
+     option(value="500") Part 5
+    input.button(type="submit" value="TEST →")

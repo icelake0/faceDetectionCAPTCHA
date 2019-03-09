@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .inner
+    h2 WELCOME TO YOUR HOME PAGE
+    table.table
+      tr
+        td Organization Name
+        td=client.org_name
+      tr
+        td Domain Name
+        td=client.domain_url
+      tr
+        td Email
+        td=client.email
+      tr
+        td Phone
+        td=client.tel
+    br
+    div.flash.flash--info
+      div(style="width: 100%; word-wrap: break-word;")=`Api Key : `
+       span(id='apiKey')=key.token
+       button.nav__link(style="position: relative; float: right;" onClick="copyAPIKey()") Copy Api Key
+
+    a.nav__link(href="account", class=('button')) Update Account
+    <script src="/javascripts/copyAPIKey.js"></script>

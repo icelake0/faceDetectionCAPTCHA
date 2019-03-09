@@ -1,0 +1,18 @@
+extends layout
+block content
+  .inner
+    form.form(action="/register" method="POST")
+      h2 Register
+      label(for="org_name") Organisation Name
+      input(type="text" name="org_name")
+      label(for="domain_url") Domain URL
+      input(type="text" name="domain_url")
+      label(for="email") Email
+      input(type="email" name="email")
+      label(for="tel") Tel
+      input(type="number" name="tel")
+      label(for="password") Password
+      input(type="password" name="password")
+      label(for="password-confirm") Confirm Password
+      input(type="password" name="password-confirm")
+      input.button(type="submit" value="Register →")

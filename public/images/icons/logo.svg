@@ -1,0 +1,16 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="a" filterUnits="objectBoundingBox" height="200%" width="200%" y="-50%" x="-50%"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="102" width="202" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" fill-rule="evenodd" fill="#FFF" filter="url(#a)"/>
+  <text font-style="italic" stroke="null" transform="matrix(0.833786473273386,0,0,1.3560144770037623,-79.2956302160866,3.442252481855345) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="24" id="svg_4" y="27.630867" x="140.221067" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#ffffff">Face Detection</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="24" id="svg_6" y="85.4375" x="93.5" stroke-opacity="null" stroke-width="0" stroke="null" fill="#000000"/>
+  <text stroke="null" transform="matrix(1.4157786882948848,0,0,1.9647119089093932,-25.78204636479169,-47.65878427831329) " font-style="italic" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="24" id="svg_7" y="62.694268" x="29.32077" stroke-opacity="null" stroke-width="0" fill="#ffffff">CAPTCHA</text>
+ </g>
+</svg>

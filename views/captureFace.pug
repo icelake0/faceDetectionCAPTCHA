@@ -1,0 +1,9 @@
+extends layout
+block content
+  .inner
+    ul(id="messages")
+    video( id="player" autoplay width=600 height=600)
+    input.button(type="submit" id="capture" value="Capture →")
+    canvas( id="canvas" width=600 height=600)
+    <script src="/javascripts/socket.io/socket.io.js"></script>
+    <script src="/javascripts/captureImage.js"></script>
